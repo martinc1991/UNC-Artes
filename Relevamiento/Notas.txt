@@ -1,0 +1,9 @@
+Algunos defectos
+
+ - Extructura muy confuso (no breadcrumbs)
+ - Enlaces redundantes
+ - Algunos titulos de paginas no se corresponden con el nombre en la URL
+ - El buscador esta en la barra de navegacion inferior y no en la esquina superior derecha que es donde se esperaria que este
+ - los links Calendario Académico, Guarani, etc (que tienen iconos a lado) están presentes en todas las paginas que deriven de la barra de navegación superior, pero no de los que deriven de la barra de navegación inferior
+ - En general los espacios estan desaprovechados
+ - El footer no esta aprovechado

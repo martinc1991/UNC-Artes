@@ -1,0 +1,53 @@
+:root {
+	--naranja-artes: #ee7623;
+}
+
+.seccion-principal {
+	min-height: 1000px;
+}
+
+h1 {
+	font-family: 'Dosis', sans-serif;
+	font-size: 26pt;
+	color: var(--naranja-artes);
+}
+
+h2 {
+	font-family: 'Dosis', sans-serif;
+	font-size: 19pt;
+	color: var(--naranja-artes);
+}
+
+h3 {
+	font-family: 'Dosis', sans-serif;
+	font-size: 15pt;
+}
+
+p {
+	font-family: 'Manuale', sans-serif;
+	font-size: 15pt;
+}
+
+.links-perfiles {
+	color: var(--naranja-artes);
+}
+
+.links-perfiles:hover {
+	color: var(--naranja-artes);
+}
+
+.contenedor-sublinks {
+	min-height: 50px;
+	text-align: center;
+	background-color: green;
+}
+
+.sublinks {
+	color: white;
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+}
+
+.sublinks:hover {
+	color: white;
+}

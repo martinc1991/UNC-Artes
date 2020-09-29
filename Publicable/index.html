@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+
+		<!-- Tipografia: Dosis -->
+		<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet" />
+
+		<!-- Tipografia: Manuale -->
+		<link href="https://fonts.googleapis.com/css2?family=Manuale&display=swap" rel="stylesheet" />
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/styles.css" />
+
+		<title>UNC - Facultad de Artes</title>
+	</head>
+	<body>
+		<div id="contenedor" class="container-fluid">
+			<div class="row">
+				<!-- Sidebar izquierda -->
+				<div id="sidebar-izquierda" class="col-lg-2 d-none d-lg-block">
+					<a href="#"><img class="logo-facu-artes" src="img/logo-facu-artes.png" alt="Logo de la Facultad de Artes" /></a>
+				</div>
+
+				<!-- Columna Principal -->
+				<div class="col-lg-10 col-auto px-md-0 px-lg-1">
+					<!-- Header -->
+					<div id="header" class="row">
+						<div class="col-12">
+							<div class="navbar row justify-content-between text-right">
+								<div class="col-12 iconos-superiores text-center text-lg-right">
+									<!-- Iconos Redes -->
+									<a href="#"><img class="icono-redes" src="img/icono_facebook.png" alt="" /></a>
+									<a href="#"><img class="icono-redes" src="img/icono_twitter.png" alt="" /></a>
+									<a href="#"><img class="icono-redes" src="img/icono_ig.png" alt="" /></a>
+									<a href="#"><img class="icono-redes" src="img/icono_youtube.png" alt="" /></a>
+									<a href="#"><img class="icono-redes" src="img/icono_mail.png" alt="" /></a>
+									<a href="#"><img class="icono-redes" src="img/icono_ubicacion.png" alt="" /></a>
+								</div>
+
+								<div class="col-lg-auto col-12 p-0 px-md-0 align-self-center text-center text-xl-left">
+									<!-- Navbar Superior -->
+									<a class="navbar-superior-link px-1" href="#">INGRESO</a>
+									<a class="navbar-superior-link px-1" href="#">ESTUDIANTES</a>
+									<a class="navbar-superior-link px-1" href="#">DOCENTES</a>
+									<a class="navbar-superior-link px-1" href="#">NO DOCENTES</a>
+									<a class="navbar-superior-link px-1" href="#">EGRESADOS/AS</a>
+								</div>
+								<!-- Buscador -->
+								<div id="contenedor-buscador" class="col-12 col-lg-3 text-center text-lg-right">
+									<form class="">
+										<input class="buscador-texto" type="search aria-label="Buscar" />
+										<button class="buscador-boton" type="submit"><img class="buscador-boton-img" src="img/icono_buscar.png" alt="" /></button>
+									</form>
+								</div>
+
+								<!-- Logo facu de artes solo visible en mobile -->
+								<div class="d-lg-none col-12 order-3 text-center">
+									<a href="#"><img class="logo-facu-artes-mobile" src="img/logo-facu-artes.png" alt="" /></a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Navbar medio -->
+						<div class="row navbar-medio justify-content-start align-items-start pl-2">
+							<nav class="col-12 col-lg-auto navbar navbar-expand-md navbar-light">
+								<!-- Boton hamburguesa -->
+								<button class="navbar-toggler ml-1 my-1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="navbar-toggler-icon"></span>
+								</button>
+								<!-- Links -->
+								<div class="row collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+									<div class="navbar-nav text-center">
+										<div class="dropdown navbar-medio-link" id="contenedor_facultad">
+											<a class="navbar-medio-link-text px-xl-4 px-3" href="#" id="facultad"> La Facultad </a>
+										</div>
+
+										<!-- Separadores -->
+										<div class="separador"></div>
+
+										<div class="dropdown navbar-medio-link" id="contenedor_grado">
+											<a class="navbar-medio-link-text px-xl-4 px-sm-3 px-md-2" href="#" id="grado"> Grado </a>
+										</div>
+
+										<!-- Separadores -->
+										<div class="separador"></div>
+
+										<div class="dropdown navbar-medio-link" id="contenedor_investigacion">
+											<a class="navbar-medio-link-text px-xl-4 px-sm-2 px-2" href="#" id="investigacion"> Investigación </a>
+										</div>
+
+										<!-- Separadores -->
+										<div class="separador"></div>
+
+										<div class="dropdown navbar-medio-link" id="contenedor_extension">
+											<a class="navbar-medio-link-text px-xl-4 px-sm-2 px-3" href="#" id="extension"> Extensión </a>
+										</div>
+
+										<!-- Separadores -->
+										<div class="separador"></div>
+
+										<div class="dropdown navbar-medio-link" id="contenedor_posgrado">
+											<a class="navbar-medio-link-text px-xl-4 px-sm-3 px-md-2 px-2" href="#" id="posgrado"> Posgrado </a>
+										</div>
+
+										<!-- Separadores -->
+										<div class="separador"></div>
+
+										<div class="dropdown navbar-medio-link" id="contenedor_internacionales">
+											<a class="navbar-medio-link-text px-xl-4 px-sm-3 px-md-2 px-3" href="#" id="internacionales"> Internacionales </a>
+										</div>
+
+										<!-- Separadores -->
+										<div class="separador"></div>
+
+										<div class="dropdown navbar-medio-link" id="contenedor_centros">
+											<a class="navbar-medio-link-text px-xl-4 px-sm-3 px-3" href="#" id="centros"> Centros </a>
+										</div>
+									</div>
+								</div>
+							</nav>
+						</div>
+
+						<!-- Sub-menus -->
+
+						<!-- Sub-menu FACULTAD -->
+						<div class="col-12 contenedor-submenu mt-2 d-none" id="facultadSubmenu">
+							<div class="row justify-content-center align-items-center">
+								<a class="submenu p-1 px-3" href="#">Autoridades</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Historia</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Honorable Consejo Directivo</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Secretarías</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Pasantias educativas</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Departamentos académicos</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Administración</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Centros</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Comunicación institucional</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Elecciones</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Mesa de género y poblaciones prioritarias</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Reglamentaciones</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Informes de gestión</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Contacto y ubicación</a>
+							</div>
+						</div>
+
+						<!-- Sub-menu GRADO -->
+						<div class="col-12 contenedor-submenu mt-2 d-none" id="gradoSubmenu">
+							<div class="row justify-content-center align-items-center">
+								<a class="submenu p-1 px-3" href="#">Departamento académico de teatro</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Departamento académico de música</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Departamento académico de artes visuales</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Departamento académico de cine y televisión</a>
+							</div>
+						</div>
+
+						<!-- Sub-menu INVESTIGACION -->
+						<div class="col-12 contenedor-submenu mt-2 d-none" id="investigacionSubmenu">
+							<div class="row justify-content-center align-items-center">
+								<a class="submenu p-1 px-3" href="#">Proyectos de investigación</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Convocatorias</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Becas</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Financiamiento SECYT</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Jornadas de investigación en artes</a>
+							</div>
+						</div>
+
+						<!-- Sub-menu EXTENSION -->
+						<div class="col-12 contenedor-submenu mt-2 d-none" id="extensionSubmenu">
+							<div class="row justify-content-center align-items-center">
+								<a class="submenu p-1 px-3" href="#">Becas, subsidios y voluntariados</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Cursos y talleres</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Proyectos de extension en Artes</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Area de cultura</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Pasantias educativas</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Diplomatura en Politicas Culturales</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Metodo Suzuki</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Coro de la Facultad de Artes</a>
+							</div>
+						</div>
+
+						<!-- Sub-menu POSGRADO -->
+						<div class="col-12 contenedor-submenu mt-2 d-none" id="posgradoSubmenu">
+							<div class="row justify-content-center align-items-center">
+								<a class="submenu p-1 px-3" href="#">Doctorado en Artes</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Maestrias</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Especializaciones</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#"> Programas</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Seminarios y Cursos</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Guarani Posgrado</a>
+							</div>
+						</div>
+						<!-- Sub-menu INTERNACIONALES -->
+						<div class="col-12 contenedor-submenu mt-2 d-none" id="internacionalesSubmenu">
+							<div class="row justify-content-center align-items-center">
+								<a class="submenu p-1 px-3" href="#">Convocatorias</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Estudiantes Internacionales</a>
+							</div>
+						</div>
+						<!-- Sub-menu CENTROS -->
+						<div class="col-12 contenedor-submenu mt-2 d-none" id="centrosSubmenu">
+							<div class="row justify-content-center align-items-center">
+								<a class="submenu p-1 px-3" href="#">Cepia</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Centros de Transferencia</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Biblioteca</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#"> Tecnologia Educativa</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Cubo Azul</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Set para Producciones</a>
+								<div class="submenu-divider"></div>
+								<a class="submenu p-1 px-3" href="#">Laboratorio de Informatica</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Banner-slider Principal -->
+					<div id="banner-principal" class="row justify-content-center mt-3 d-none d-sm-block">
+						<div id="carouselExampleIndicators" class="carousel slide col-12" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#carouselExampleIndicators" data-slide-to="0" class="mx-2 d-none d-md-block active slider-sup-boton">
+									<div>
+										<!-- Este div solo se usa para hacer circulos en el slider -->
+									</div>
+								</li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="1" class="mx-2 d-none d-md-block slider-sup-boton">
+									<div>
+										<!-- Este div solo se usa para hacer circulos en el slider -->
+									</div>
+								</li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="2" class="mx-2 d-none d-md-block slider-sup-boton">
+									<div>
+										<!-- Este div solo se usa para hacer circulos en el slider -->
+									</div>
+								</li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="img/banner.jpg" class="d-block w-100" alt="" />
+								</div>
+								<div class="carousel-item">
+									<img src="img/banner.jpg" class="d-block w-100" alt="" />
+								</div>
+								<div class="carousel-item">
+									<img src="img/banner.jpg" class="d-block w-100" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Seccion Principal -->
+					<div class="row mt-3">
+						<div class="col-12 col-md-9 p-0 pr-0 pr-md-2">
+							<!-- Menu secundario -->
+							<div class="row d-flex menu-secundario m-0 p-0 justify-content-lg-start justify-content-center text-center">
+								<!-- Navbar Inferior -->
+
+								<a class="col-12 col-sm-auto d-block d-md-inline-block navbar-inferior-link py-0 px-xl-3 px-2 flex-fill" href="#">GUARANÍ</a>
+								<!-- Separadores -->
+								<div class="separador"></div>
+								<a class="col-12 col-sm-auto d-block d-md-inline-block navbar-inferior-link py-0 px-xl-3 px-2 flex-fill" href="#">AULA VIRTUAL</a>
+								<!-- Separadores -->
+								<div class="separador"></div>
+								<a class="col-12 col-sm-auto d-block d-md-inline-block navbar-inferior-link py-0 px-xl-3 px-2 flex-fill" href="#">DIGESTO</a>
+								<!-- Separadores -->
+								<div class="separador"></div>
+								<a class="col-12 col-sm-auto d-block d-md-inline-block navbar-inferior-link py-0 px-xl-3 px-2 flex-fill" href="#">COMDOC</a>
+								<!-- Separadores -->
+								<div class="separador"></div>
+								<a class="col-12 col-sm-auto d-block d-md-inline-block navbar-inferior-link py-0 px-xl-3 px-2 flex-fill" href="#">CALENDARIO ACADÉMICO</a>
+							</div>
+							<div class="col-12 seccion-notas">
+								<div class="row justify-content-between">
+									<!-- Notas -->
+									<div class="d-none d-md-block col-12 col-lg-6 contenedor-nota px-0 mt-3">
+										<img class="foto-nota" src="img/video.jpg" alt="" />
+										<a class="link-nota" href=""><h3 class="titulo-nota mt-2">Calendario académico 2020 y cierre del año 2019</h3></a>
+										<a class="ver-mas-nota" href="#">Ver +</a>
+									</div>
+									<div class="d-none d-md-block col-12 col-lg-6 contenedor-nota px-0 mt-3">
+										<img class="foto-nota" src="img/video.jpg" alt="" />
+										<a class="link-nota" href=""><h3 class="titulo-nota mt-2">Nuevas becarias de la FA en proyectos de la SeCyT UNC</h3></a>
+										<a class="ver-mas-nota" href="#">Ver +</a>
+									</div>
+									<div class="d-none d-md-block col-12 col-lg-6 contenedor-nota px-0 mt-3">
+										<img class="foto-nota" src="img/video.jpg" alt="" />
+										<a class="link-nota" href=""><h3 class="titulo-nota mt-2">Llamado a concurso docente en el Dpto. de Cine y TV</h3></a>
+										<a class="ver-mas-nota" href="#">Ver +</a>
+									</div>
+									<div class="d-none d-md-block col-12 col-lg-6 contenedor-nota px-0 mt-3">
+										<img class="foto-nota" src="img/video.jpg" alt="" />
+										<a class="link-nota" href=""><h3 class="titulo-nota mt-2">Preinscripciones abiertas para la Diplomatura en Políticas Culturales para el desarrollo local</h3></a>
+										<a class="ver-mas-nota" href="#">Ver +</a>
+									</div>
+
+									<!-- Boton + Noticias -->
+									<a class="d-none d-md-block mas-noticias my-3" href="#">+ noticias >></a>
+
+									<!-- Slider de botones -->
+									<div class="d-none d-md-block col-12 mt-3">
+										<div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel" data-interval="false">
+											<div class="carousel-inner pt-3 pb-3">
+												<!-- Grupo de logos en una imagen del slider -->
+												<!-- medidas de las imagenes: 190px x 50px -->
+												<div class="carousel-item active">
+													<div class="col-12 text-center">
+														<img class="img-navbar-inferior" src="img/logo_prod-aud-fa.png" alt="" />
+														<img class="img-navbar-inferior" src="img/logo_cepia.png" alt="" />
+														<img class="img-navbar-inferior" src="img/logo_cpa.png" alt="" />
+													</div>
+												</div>
+												<!-- Grupo de logos en una imagen del slider -->
+												<!-- medidas de las imagenes: 190px x 50px -->
+												<div class="carousel-item">
+													<div class="col-12 text-center">
+														<img class="img-navbar-inferior" src="img/icono_mail.png" alt="" />
+														<img class="img-navbar-inferior" src="img/icono_mail.png" alt="" />
+														<img class="img-navbar-inferior" src="img/icono_mail.png" alt="" />
+													</div>
+												</div>
+												<!-- Grupo de logos en una imagen del slider -->
+												<!-- medidas de las imagenes: 190px x 50px -->
+												<div class="carousel-item">
+													<div class="col-12 text-center">
+														<img class="img-navbar-inferior" src="img/icono_mail.png" alt="" />
+														<img class="img-navbar-inferior" src="img/icono_mail.png" alt="" />
+														<img class="img-navbar-inferior" src="img/icono_mail.png" alt="" />
+													</div>
+												</div>
+											</div>
+											<!-- Flecha hacia izq -->
+											<a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+												<!-- Flechas de bootstrap -->
+												<!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+												<!-- Flechas propias -->
+												<span class="" aria-hidden="true"><img src="img/flechas_flecha-prev.png" alt="" /></span>
+												<span class="sr-only">Previous</span>
+											</a>
+											<!-- Flecha hacia der -->
+											<a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+												<!-- Flechas de bootstrap -->
+												<!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+												<!-- Flechas propias -->
+												<span class="" aria-hidden="true"><img src="img/flechas_flecha-next.png" alt="" /></span>
+												<span class="sr-only">Next</span>
+											</a>
+										</div>
+									</div>
+									<!-- Video de youtube -->
+									<div class="d-none d-md-block p-0 col-12 text-center">
+										<iframe class="youtube-video" src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Sidebar derecha -->
+						<div class="order-1 order-md-2 col-12 col-md-3 sidebar-der">
+							<div class="row">
+								<!-- A de Artes -->
+								<div class="col-12 contenedor-logo-sidebar-der text-center">
+									<a class="link-sidebar-der" href="#"><img class="logo-sidebar-der" src="img/logo_a-de-artes.png" alt="" /></a>
+								</div>
+								<!-- Calendario -->
+								<div class="col-12 contenedor-logo-sidebar-der text-center">
+									<a class="link-sidebar-der" href="#"><img class="logo-sidebar-der" src="img/logo_calendario.png" alt="" /></a>
+								</div>
+								<!-- Mesa de Genero -->
+								<div class="col-12 contenedor-logo-sidebar-der text-center">
+									<a class="link-sidebar-der" href="#"><img class="logo-sidebar-der" src="img/logo_mesa-genero.png" alt="" /></a>
+								</div>
+								<!-- Biblioteca -->
+								<div class="col-12 contenedor-logo-sidebar-der text-center">
+									<a class="link-sidebar-der" href="#"><img class="logo-sidebar-der" src="img/logo_biblioteca.png" alt="" /></a>
+								</div>
+								<!-- Publicaciones FA -->
+								<div class="col-12 contenedor-logo-sidebar-der text-center">
+									<a class="link-sidebar-der" href="#"><img class="logo-sidebar-der" src="img/logo_publicaciones-fa.png" alt="" /></a>
+								</div>
+								<!-- Repositorio Digital -->
+								<div class="col-12 contenedor-logo-sidebar-der text-center">
+									<a class="link-sidebar-der" href="#"><img class="logo-sidebar-der" src="img/logo_repositorio-digital.png" alt="" /></a>
+								</div>
+								<!-- Tecnologia Educativa -->
+								<div class="col-12 contenedor-logo-sidebar-der text-center">
+									<a class="link-sidebar-der" href="#"><img class="logo-sidebar-der" src="img/logo_tecnologia-educativa.png" alt="" /></a>
+								</div>
+								<!-- Boletin FA -->
+								<div class="col-12 contenedor-logo-sidebar-der text-center">
+									<a class="link-sidebar-der" href="#"><img class="logo-sidebar-der" src="img/logo_boletin-fa.png" alt="" /></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Footer -->
+			<div class="row justify-content-between footer">
+				<!-- Parte Izquierda -->
+				<div class="col-12 col-md-3 footer-izq text-center text-md-left">
+					<p>
+						Facultad de Artes <br />
+						Universidad Nacional de Córdoba <br />
+						+54 351 5353630
+					</p>
+					<a href="#">comunicacion@artes.unc.edu.ar</a><br />
+					<a href="#">www.artes.unc.edu.ar</a>
+				</div>
+				<!-- div solo para colocar una linea en los tamanos xs y sm -->
+				<div class="col-12 d-md-none" style="border-top: 1px solid grey"></div>
+				<!-- Parte Izquierda -->
+				<div class="col-12 col-md-8 footer-der text-center text-md-right">
+					<img class="logos-footer" src="img/logo_facu-artes-2.png" alt="" />
+					<img class="logos-footer" src="img/logo_unc.png" alt="" />
+				</div>
+			</div>
+		</div>
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<!-- JavaScript -->
+		<script src="js/main.js"></script>
+	</body>
+</html>
